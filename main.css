@@ -125,7 +125,7 @@ li img {
 .profile-list .details{
     display: flex;
     flex-direction: column;
-    margin-right: 710px;
+    margin-right: 690px;
 }
 
 .button {
@@ -179,12 +179,12 @@ li img {
     border-radius: 10px 10px 10px 10px;
     margin-top: 20px;
     flex: 0 0 380px;
-    padding-bottom: 0;
+    padding-bottom: 20px;
     margin-bottom: 0;
     
 }
 .list {
-    font-size: 18px;
+    font-size: 16px;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -286,15 +286,6 @@ li img {
 .right-body .live-activities li img {
     width: 25px;
 }
-.right-body2 {
-    height: 247px;
-    background-color: white;
-    padding: 5px 25px;
-    border-radius: 10px 10px 10px 10px;
-    margin-top: 20px;
-    flex: 1;
-    display: flex;  
-}
 
 .grid {
     display: flex;
@@ -317,4 +308,119 @@ li img {
 .photo-container img {
     border-radius: 5%;
 
+}
+
+/* Second Right Body Container */
+.right-body2 {
+    height: auto; 
+    background-color: white;
+    padding: 0 25px; 
+    border-radius: 10px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.right-body2 .right-profile-logo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 10px; 
+}
+.right-container {
+    margin-top: 24px;
+}
+.right-container1{
+    padding-bottom: 20px;
+}
+.right-body2 .right-container {
+    margin-left: 10px;
+}
+
+.right-body2 .right-name {
+    font-size: 21px;
+}
+
+.right-body2 .right-public {
+    color: grey;
+}
+
+.right-body2 .right-description {
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+.right-body2 .right-description span {
+    cursor: pointer;
+    color: black;
+}
+
+.right-body2 .right-description a {
+    color: #1877f2; 
+    text-decoration: none;
+}
+
+.right-body2 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.reach-bar {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+    padding: 0;
+    gap: 20px;
+}
+
+.reach-bar li {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: grey;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.reach-bar .reach-logo {
+    display: flex;
+    width: 25px;
+    height:auto;
+    align-items: center;
+}
+
+.profile1-header {
+    display: flex; 
+    align-items: center; 
+    gap: 10px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.pixel-art-section  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.pixel-art-text {
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 70px;
+    color: darkgreen;
+    text-shadow: 2px 2px 0 #ff00ff, -2px -2px 0 #ff00ff; 
+    animation: blink 1s infinite alternate;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.5;
+    }
 }
