@@ -1,0 +1,266 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(128, 128, 128, 0.301);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header .nav-bar {
+    display: flex;
+    align-items: center;
+    background-color: blue;
+}
+
+nav .toggle {
+    display: flex;
+    margin-right: auto;
+    gap: 40px;
+}
+
+li  {
+    list-style: none;
+}
+
+li img {
+    width: 35px;
+}
+
+.profile-pic {
+    width: 40px;
+}
+
+.logo {
+    width: 200px;
+    margin: 0 40px;
+}
+
+.search-bar {
+    position: relative;
+    width: 450px;
+    display: flex;
+    margin-right: 30px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 13px 40px 13px 50px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: large;
+}
+
+.search-logo {
+    position: absolute;
+    left: 15px;
+    top: 25%;
+    width: 20px;
+}
+
+
+.profile-pic {
+    border-radius: 50%;
+    width: 39%;
+}
+.profile {
+    margin-right: 1px;
+    position: relative;
+}
+
+.online {
+    position: absolute;
+    background-color: rgb(153, 255, 0);
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 2x solid white;
+    top: 0;
+    right: 0;
+    left: 35px;
+}
+
+.container {
+    margin-left: 255px;
+    margin-right: 255px;
+}
+.coverpage img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+    border-radius: 10px 10px 10px 10px; 
+    margin-top: 20px;
+}
+
+.profile-list {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    background-color: white;
+    padding: 18px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
+
+.profile-img {
+    margin-right: auto;
+    margin-left: 10px;
+    width: 130px;
+    height: 130px;
+    border-radius: 10%;
+}
+.friends-logo {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.friends-logo img {
+    border-radius: 50%;
+}
+.profile-list .name{
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+.profile-list .details{
+    display: flex;
+    flex-direction: column;
+    margin-right: 710px;
+}
+
+.button {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 95px;
+}
+
+.message-icon {
+    background-color: blue;
+}
+.message-button {
+    background-color: blue;
+    color: white;
+}
+.button .friends-icon, .message-icon {
+    width: 20px;
+    align-items: center;
+}
+.friend-button, .message-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    height: 40px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.see-more {
+    display: flex;
+    background-color: #efefef;
+    width: 50px;
+    padding: 15px 2px;
+    border-radius: 4px;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+    right: 0px;
+}
+
+.left-body {
+    height: 320px;
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    flex: 0 0 380px;
+}
+.list {
+    list-style:  disc;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.seperator {
+    margin: 20px 0;
+    background-color: #efefef;
+    height: 3px;
+}
+.left-body h2 {
+    font-size: 27px;
+}
+.left-body p {
+    padding: 0 30px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.right-body {
+    height: 247px;
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+}
+
+.body-container {
+    display: flex;
+    gap: 20px;
+}
+
+.right-body .right-profile-logo {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+.right-container {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+.right-container .right-name {
+    font-size: 21px;
+}
+.right-container .right-public {
+    color: grey;
+}
+.right-body .right-description {
+    margin-top: 40px;
+    font-size: 18px;
+    color: grey;
+}
+.right-body .right-seperator {
+    display: block;
+    width: 135%;
+    background-color: #efefef;
+    height: 3px;
+    margin-bottom: 20px;
+    margin-top: 48px;
+}
+.right-body .live-activities {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-right: 150px;
+    padding: 0;
+    
+}
+.right-body .live-activities li {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: grey;
+    cursor: pointer;
+}
+
+.right-body .live-activities li img {
+    width: 25px;
+}
