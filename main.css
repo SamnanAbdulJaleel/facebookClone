@@ -2,7 +2,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: rgba(128, 128, 128, 0.301);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 header .nav-bar {
@@ -174,17 +174,21 @@ li img {
 }
 
 .left-body {
-    height: 320px;
     background-color: white;
-    padding: 5px 25px;
+    padding: 0 25px 0 25px;
     border-radius: 10px 10px 10px 10px;
     margin-top: 20px;
     flex: 0 0 380px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
 }
 .list {
-    list-style:  disc;
-    font-size: 20px;
+    font-size: 18px;
     padding: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .seperator {
@@ -193,14 +197,13 @@ li img {
     height: 3px;
 }
 .left-body h2 {
-    font-size: 27px;
+    font-size: 22px;
 }
 .left-body p {
     padding: 0 30px;
     font-size: 18px;
     text-align: center;
 }
-
 .right-body {
     height: 247px;
     background-color: white;
@@ -211,9 +214,28 @@ li img {
     display: flex;
 }
 
-.body-container {
+.left-body-container{
     display: flex;
-    gap: 20px;
+    flex-direction: column;
+    flex: 0 0 440px;
+}
+
+.left-body .left-details {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.left-body .photo-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-body-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 260px;
 }
 
 .right-body .right-profile-logo {
@@ -263,4 +285,36 @@ li img {
 
 .right-body .live-activities li img {
     width: 25px;
+}
+.right-body2 {
+    height: 247px;
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    flex: 1;
+    display: flex;  
+}
+
+.grid {
+    display: flex;
+    gap: 20px;
+}
+
+.right-body {
+    height: 247px;
+    background-color: white;
+    padding: 5px 25px;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 20px;
+    flex: 1;
+    display: flex;
+}
+
+.photo-container {
+    padding:8px;
+}
+.photo-container img {
+    border-radius: 5%;
+
 }
